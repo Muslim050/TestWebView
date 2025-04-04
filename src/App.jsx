@@ -15,10 +15,10 @@ function App() {
       </button>
       {showIframe && (
         <iframe
-          src="https://your-widget-url.com/?subscriberId=12345"
-          style={{ width: '100%', height: '600px', border: 'none' }}
-          title="Test Widget"
-        />
+          src="https://username.github.io/WebView/?subscriberId=12345"
+          style="width: 100%; height: 600px; border: none;"
+          title="Test Widget">
+        </iframe>
       )}
     </div>
   );
